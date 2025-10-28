@@ -24,7 +24,7 @@ Let’s start by training regression model, which predicts a numeric value. In t
 4. On the Training Settings page:
 
 - Set the **Target column** to IceCreamsSold.
-- Deselect **Date** as a feature (it’s unique each day, so unlikely to be predictive on its own) and use the other remaining columns as features with which to train the model.
+- \_De_select **Date** as a feature (it’s unique each day, so unlikely to be predictive on its own) and use the other remaining columns as features with which to train the model.
 - Review the **Training/Testing split** (which determines how much of the dataset to use for training the model, and how much to hold back for model evaluation).
 
 ![Screenshot of the Training Settings page.](./assets/img/02.png)
@@ -41,16 +41,15 @@ The visualization shows a comparison of the predicted numeric values and the act
 
 7. On the **Test Model** page, use the default test data to generate a prediction.
 
-![Screenshot of the Test Model page.])(./assets/img/05.png)
+![Screenshot of the Test Model page.](./assets/img/05.png)
 
 8. Try generating predictions with the following test cases:
 
-| Feature     | Case 1 | Case 2   |
-| ----------- | ------ | -------- |
-| DayOfWeek   | Friday | Monday   |
-| Month       | May    | November |
-| Temperature | 72.3   | 55.8     |
-| Rainfall    | 0.01   | 0.56     |
+| Case    | Month    | DayOfWeek | Temperature | Rainfall | Prediction |
+| ------- | -------- | --------- | ----------- | -------- | ---------- |
+| Default | April    | Tuesday   | 59.4        | 0.74     | **59.98**  |
+| Case 1  | May      | Friday    | 72.3        | 0.01     | **130.91** |
+| Case 2  | November | Monday    | 55.8        | 0.56     | **43.44**  |
 
 ## Train a classification model
 
