@@ -1,0 +1,2 @@
+To submit an expense claim, you can just send details and the amounts to be claimed to expenses@contoso.com.
+Would you like me to submit a claim on your behalf?
