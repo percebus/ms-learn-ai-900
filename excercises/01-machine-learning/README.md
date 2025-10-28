@@ -13,9 +13,9 @@ In this exercise, you’ll use data files to train multiple types of machine lea
 
 ## Train models
 
-1. [Train a regression model](./regression/)
-2. [Train a classification model](./classification/)
-3. [Train a clustering model](./clustering/)
+1. [Train a regression model](./regression/ice-cream)
+2. [Train a classification model](./classification/penguins)
+3. [Train a clustering model](./clustering/customers)
 
 ## Summary
 
