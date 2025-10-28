@@ -1,0 +1,7 @@
+{
+  "input_data": {
+    "columns": ["CulmenLength", "CulmenDepth", "FlipperLength", "BodyMass"],
+    "index": [0],
+    "data": [[45.2, 13.8, 215, 4750]]
+  }
+}

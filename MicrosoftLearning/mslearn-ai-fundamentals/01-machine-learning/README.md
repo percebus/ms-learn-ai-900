@@ -11,8 +11,9 @@ This exercise should take approximately **35** minutes to complete (less if you 
 A workspace is used to keep all your machine learning resources together, making it easier to manage data, code, models, and other assets in a single place.
 
 1. Open the portal for the environment you want to use in this lab, and sign in if prompted:
-  - Azure-based Azure Machine Learning Studio at https://ml.azure.com
-  - Browser-based ML Lab at https://aka.ms/ml-lab
+
+- Azure-based Azure Machine Learning Studio at https://ml.azure.com
+- Browser-based ML Lab at https://aka.ms/ml-lab
 
 > [!TIP] **Tip**: If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
 
@@ -93,10 +94,11 @@ When the automated machine learning job has completed, you can review the best m
 
 1. On the **Overview** tab of the job details page, view the information about the job and note the best model summary.
 1. Select the **Algorithm name** for the best model to view its details. Then on the child job details page, view the following tabs:
-  - **Overview**: General details for the child job.
-  - **Model**: Information about the model that was trained.
-  - **Metrics**: Evaluation metrics and visualizations for the model based on the test data used during the training process.
-  - **Outputs and logs**: Information logged during the training process.
+
+- **Overview**: General details for the child job.
+- **Model**: Information about the model that was trained.
+- **Metrics**: Evaluation metrics and visualizations for the model based on the test data used during the training process.
+- **Outputs and logs**: Information logged during the training process.
 
 ## Deploy and test the model
 
@@ -119,14 +121,9 @@ Now you can test your deployed service.
 ```json
 {
   "input_data": {
-     "columns": [
-         "DayOfWeek",
-         "Month",
-         "Temperature",
-         "Rainfall"
-     ],
-     "index": [0],
-     "data": [["Wednesday","June",70.5,0.05]]
+    "columns": ["DayOfWeek", "Month", "Temperature", "Rainfall"],
+    "index": [0],
+    "data": [["Wednesday", "June", 70.5, 0.05]]
   }
 }
 ```
@@ -135,9 +132,7 @@ Now you can test your deployed service.
 5. Review the test results, which include a predicted number of rentals based on the input features - similar to this:
 
 ```json
-[
-    120.16208168753236
-]
+[120.16208168753236]
 ```
 
 The test pane took the input data and used the model you trained to return the predicted number of rentals.
@@ -157,16 +152,11 @@ After training and deploying a classification model, you can test it in the endp
 
 ```json
 {
-    "input_data": {
-    "columns": [
-        "CulmenLength",
-        "CulmenDepth",
-        "FlipperLength",
-        "BodyMass"
-    ],
+  "input_data": {
+    "columns": ["CulmenLength", "CulmenDepth", "FlipperLength", "BodyMass"],
     "index": [0],
-    "data": [[45.2,13.8,215,4750]]
-    }
+    "data": [[45.2, 13.8, 215, 4750]]
+  }
 }
 ```
 
