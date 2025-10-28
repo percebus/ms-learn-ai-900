@@ -27,7 +27,9 @@ March 2020 - Present (4+ years)
 - Collaborated with product managers to define technical requirements and delivery timelines
 
 ### Full Stack Developer | InnovateTech Inc.
+
 June 2017 - February 2020 (2.5 years)
+
 - Developed and maintained 5 client-facing web applications using React and Node.js
 - Implemented automated testing suite increasing code coverage from 40% to 85%
 - Built RESTful APIs serving mobile and web clients with 99.9% uptime
@@ -35,7 +37,9 @@ June 2017 - February 2020 (2.5 years)
 - Participated in agile ceremonies and sprint planning sessions
 
 ### Software Developer | StartupLab
+
 August 2015 - May 2017 (1.5+ years)
+
 - Created responsive web applications using JavaScript, HTML5, and CSS3
 - Integrated third-party APIs including payment processing and authentication services
 - Collaborated with UX designers to implement pixel-perfect user interfaces

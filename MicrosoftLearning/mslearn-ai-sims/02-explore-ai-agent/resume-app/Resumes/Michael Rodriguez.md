@@ -18,7 +18,9 @@ Results-driven marketing professional with proven track record in digital market
 ## Professional Experience
 
 ### Marketing Manager | GrowthTech Solutions
+
 January 2021 - Present (3+ years)
+
 - Manage $2M annual marketing budget across digital and traditional channels
 - Led rebranding initiative that increased brand recognition by 40% in target demographics
 - Developed content strategy resulting in 250% increase in organic website traffic
@@ -27,7 +29,9 @@ January 2021 - Present (3+ years)
 - Launched successful product campaigns generating $5M in new revenue
 
 ### Digital Marketing Specialist | TechStart Inc.
+
 March 2019 - December 2020 (1.5+ years)
+
 - Executed multi-channel digital marketing campaigns reaching 500K+ monthly impressions
 - Optimized SEO strategy improving organic search rankings for 50+ target keywords
 - Managed social media presence across 4 platforms with 100K+ combined followers
@@ -36,7 +40,9 @@ March 2019 - December 2020 (1.5+ years)
 - Analyzed campaign performance using Google Analytics and prepared monthly reports
 
 ### Marketing Coordinator | BrandBoost Agency
+
 June 2017 - February 2019 (1.5+ years)
+
 - Supported marketing campaigns for 15+ B2B and B2C clients across various industries
 - Managed client social media accounts and created engaging content calendars
 - Conducted market research and competitor analysis to inform campaign strategies
