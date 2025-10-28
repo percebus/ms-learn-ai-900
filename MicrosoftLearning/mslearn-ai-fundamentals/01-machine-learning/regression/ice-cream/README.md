@@ -5,7 +5,10 @@ Automated machine learning enables you to try multiple algorithms and parameters
 1. In the portal, view the **Automated ML** page (under **Authoring**).
 1. Create a new Automated ML job with the following settings, using **Next** as required to progress through the user interface:
 
-> [!TIP] > **Tip**: If no explicit information for a setting is provided in the steps below, use the default value.
+<!-- prettier-ignore-start -->
+> [!TIP]
+> If no explicit information for a setting is provided in the steps below, use the default value.
+<!-- prettier-ignore-end -->
 
 **Basic settings**:
 
@@ -25,7 +28,10 @@ Automated machine learning enables you to try multiple algorithms and parameters
   - Create the data asset.
 - Ensure your newly created ice-cream data asset is selected before moving to the next step
 
-> [!NOTE] > **Note**: If you are using an Azure subscription for which you are not an administrator, key-based access to storage may have been disallowed by policy. In this case, you’ll need to work with your administrator to allow key-based access or reconfigure your Azure Machine Learning workspace to use Entra ID authentication to access storage. If you can’t do this, use the browser-based ML Lab app for this exercise.
+<!-- prettier-ignore-start -->
+> [!NOTE]
+> If you are using an Azure subscription for which you are not an administrator, key-based access to storage may have been disallowed by policy. In this case, you’ll need to work with your administrator to allow key-based access or reconfigure your Azure Machine Learning workspace to use Entra ID authentication to access storage. If you can’t do this, use the browser-based ML Lab app for this exercise.
+<!-- prettier-ignore-end -->
 
 **Task settings:**
 
@@ -40,7 +46,10 @@ Automated machine learning enables you to try multiple algorithms and parameters
     - **Metric score threshold**: 0.9
     - **Experiment timeout (minutes)**: 15
 
-> [!NOTE] > **Note** It’s important to set these limits when using Azure Machine Learning, as running training jobs for every possible algorithm and featurization combination could potentially take hours!
+<!-- prettier-ignore-start -->
+> [!NOTE]
+> It’s important to set these limits when using Azure Machine Learning, as running training jobs for every possible algorithm and featurization combination could potentially take hours!
+<!-- prettier-ignore-end -->
 
 **Compute:**
 
@@ -50,9 +59,12 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
 - Review the settings and check them carefully. Then submit the training job. It starts automatically.
 
-3. Wait for the job to finish.
+1. Wait for the job to finish.
 
-> [!TIP] > **Tip**: If you’re using Azure Machine Learning, it might take a while — now might be a good time for a coffee break!
+<!-- prettier-ignore-start -->
+> [!TIP]
+> If you’re using Azure Machine Learning, it might take a while — now might be a good time for a coffee break!
+<!-- prettier-ignore-end -->
 
 ## Review the best model
 
@@ -74,7 +86,10 @@ When the automated machine learning job has completed, you can review the best m
 
 2. Wait for a notification that the deployment is complete.
 
-> [!TIP] > **Tip:** In Azure Machine Learning studio, endpoint deployment may take 5-10 minutes.
+<!-- prettier-ignore-start -->
+> [!TIP]
+> In Azure Machine Learning studio, endpoint deployment may take 5-10 minutes.
+<!-- prettier-ignore-end -->
 
 ## Test the deployed service
 

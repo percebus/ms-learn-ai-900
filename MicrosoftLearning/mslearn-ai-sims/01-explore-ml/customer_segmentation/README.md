@@ -17,4 +17,7 @@ Suppose a retail business wants to group customers into segments for marketing, 
 
 Each cluster represents a group of customers with similar spending habits.
 
-> [!NOTE] > **Note:** The applications used in this exercise use machine learning models that are simple, and based on a small set of data features. In a real scenario, data scientists can use a range of machine learning frameworks with platforms like Azure Machine Learning to develop, deploy, and manage machine learning models.
+<!-- prettier-ignore-start -->
+> [!NOTE]
+> The applications used in this exercise use machine learning models that are simple, and based on a small set of data features. In a real scenario, data scientists can use a range of machine learning frameworks with platforms like Azure Machine Learning to develop, deploy, and manage machine learning models.
+<!-- prettier-ignore-end -->

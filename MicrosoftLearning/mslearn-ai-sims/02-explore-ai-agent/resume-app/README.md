@@ -14,4 +14,7 @@ Suppose a recruitment organization needs to streamline their process by automati
 
 5. Repeat the process by using **Change Candidate** to select a different resume, and compare it against the available jobs.
 
-> [!NOTE] > **Note:** The applications used in this exercise are simulations - there are no actual AI agents or generative AI models behind them. However, they’re based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/) - in particular the [Azure AI Foundry Agent Service](https://azure.microsoft.com/products/ai-agent-service/).
+<!-- prettier-ignore-start -->
+> [!NOTE]
+> The applications used in this exercise are simulations - there are no actual AI agents or generative AI models behind them. However, they’re based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/) - in particular the [Azure AI Foundry Agent Service](https://azure.microsoft.com/products/ai-agent-service/).
+<!-- prettier-ignore-end -->

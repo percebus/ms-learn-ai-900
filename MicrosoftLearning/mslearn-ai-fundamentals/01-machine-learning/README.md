@@ -2,7 +2,10 @@
 
 In this exercise, you’ll use the automated machine learning to train and evaluate a machine learning model. You’ll then deploy and test the trained model.
 
-> [!NOTE] > **Note:** This exercise is designed to take you through the steps to train and test a model using **Azure Machine Learning**. If you have an Azure subscription with sufficient permissions, you can provision an Azure Machine Learning workspace and use that for the exercise. However, Azure Machine Learning is designed for enterprise-scale machine learning solutions that involve huge volumes of data and cloud-based compute. Some operations in Azure Machine Learning require provisioning compute, which can take considerable time. If you don’t have access to Azure, or if you have limited time to complete the exercise, a browser-based **ML Lab** app that includes the core functionality of Azure ML used in this exercise is also provided, and you can use that to train and test real machine learning models, just as you would in Azure ML. While the user interface in ML Lab is not identical to Azure Machine Learning, it’s similar enough to make the transition to Azure Machine Learning intuitive. Note that the ML Lab app runs in the browser, so refreshing the page at any point will restart the app!
+<!-- prettier-ignore-start -->
+> [!NOTE]
+> This exercise is designed to take you through the steps to train and test a model using **Azure Machine Learning**. If you have an Azure subscription with sufficient permissions, you can provision an Azure Machine Learning workspace and use that for the exercise. However, Azure Machine Learning is designed for enterprise-scale machine learning solutions that involve huge volumes of data and cloud-based compute. Some operations in Azure Machine Learning require provisioning compute, which can take considerable time. If you don’t have access to Azure, or if you have limited time to complete the exercise, a browser-based **ML Lab** app that includes the core functionality of Azure ML used in this exercise is also provided, and you can use that to train and test real machine learning models, just as you would in Azure ML. While the user interface in ML Lab is not identical to Azure Machine Learning, it’s similar enough to make the transition to Azure Machine Learning intuitive. Note that the ML Lab app runs in the browser, so refreshing the page at any point will restart the app!
+<!-- prettier-ignore-end -->
 
 This exercise should take approximately **35** minutes to complete (less if you use the browser-based ML Lab app).
 
@@ -15,9 +18,12 @@ A workspace is used to keep all your machine learning resources together, making
 - Azure-based Azure Machine Learning Studio at https://ml.azure.com
 - Browser-based ML Lab at https://aka.ms/ml-lab
 
-> [!TIP] > **Tip**: If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
+<!-- prettier-ignore-start -->
+> [!TIP]
+> If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
+<!-- prettier-ignore-end -->
 
-2. Create a new workspace with a suitable name.
+1. Create a new workspace with a suitable name.
 
 > If you are using Azure Machine Learning, you do not require a Hub for this exercise. Choose appropriate advanced settings based on any policy constraints in your Azure subscription.
 
