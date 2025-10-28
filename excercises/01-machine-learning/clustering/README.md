@@ -14,8 +14,10 @@ Finally, let’s train a clustering model to separate customers into groups base
 
 > The visualization shows a scatter plot indicating the cluster separation (projected as two dimensions).
 
-6. On the **Test Model** page, use the default test data to generate a prediction.
-7. Try generating predictions with the following test cases:
+![Training Results](./Training_Results.png)
+
+1. On the **Test Model** page, use the default test data to generate a prediction.
+2. Try generating predictions with the following test cases:
 
 | Case    | AverageSpend | AverageFrequency | Prediction |
 | ------- | ------------ | ---------------- | ---------- |
