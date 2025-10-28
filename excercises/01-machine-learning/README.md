@@ -74,12 +74,11 @@ Now let’s train a classification model to predict which of three species a pen
 
 7. Try generating predictions with the following test cases:
 
-| Feature       | Case 1 | Case 2 |
-| ------------- | ------ | ------ |
-| CulmenLength  | 45.2   | 46.9   |
-| CulmenDepth   | 15.4   | 16.7   |
-| FlipperLength | 219    | 189    |
-| BodyMass      | 4753   | 3645   |
+| Case    | CulmenLength | CulmenDepth | FlipperLength | BodyMass | Prediction |
+| ------- | ------------ | ----------- | ------------- | -------- | ---------- |
+| Default | 39.1         | 18.7        | 181           | 3750     | **0**      |
+| Case 1  | 45.2         | 15.4        | 219           | 4753     | **1**      |
+| Case 2  | 46.9         | 16.7        | 189           | 3645     | **2**      |
 
 ## Train a clustering model
 
