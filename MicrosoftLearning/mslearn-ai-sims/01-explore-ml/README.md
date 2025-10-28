@@ -7,5 +7,5 @@ This exercise should take approximately **15** minutes to complete.
 ## Generate predictions
 
 1. [Home rental](./home_rental)
-2. [Whear seed species](./seed_identifier)
+2. [Wheat seed species](./seed_identifier)
 3. [Customer segmentation](./customer_segmentation)
