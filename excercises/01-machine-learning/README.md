@@ -16,15 +16,16 @@ In this exercise, you’ll use data files to train multiple types of machine lea
 Let’s start by training regression model, which predicts a numeric value. In this exercise, we’ll use a dataset of historic sales to predict demand for ice cream cones on a given day, based on seasonal and weather-related features.
 
 1. In a browser, navigate to the [ML Lite](https://aka.ms/ml-lite) web application at [`https://aka.ms/ml-lite`](https://aka.ms/ml-lite), which you’ll use in this exercise.
-1. Wait for the ML Engine to load and initialize (this can take a few seconds). When the ML Engine is ready, you can complete the pages in the  wizard to train and test a machine learning model.
+1. Wait for the ML Engine to load and initialize (this can take a few seconds). When the ML Engine is ready, you can complete the pages in the wizard to train and test a machine learning model.
 1. On the **Model Type & Data page**, select **Regression** and upload the **ice-cream.csv** text file to see a preview of the data it contains.
 
 ![Screenshot of the Model Type and Data page.](./assets/img/01.png)
 
 4. On the Training Settings page:
-  - Set the **Target column** to IceCreamsSold.
-  - Deselect **Date** as a feature (it’s unique each day, so unlikely to be predictive on its own) and use the other remaining columns as features with which to train the model.
-  - Review the **Training/Testing split** (which determines how much of the dataset to use for training the model, and how much to hold back for model evaluation).
+
+- Set the **Target column** to IceCreamsSold.
+- Deselect **Date** as a feature (it’s unique each day, so unlikely to be predictive on its own) and use the other remaining columns as features with which to train the model.
+- Review the **Training/Testing split** (which determines how much of the dataset to use for training the model, and how much to hold back for model evaluation).
 
 ![Screenshot of the Training Settings page.](./assets/img/02.png)
 
@@ -44,23 +45,25 @@ The visualization shows a comparison of the predicted numeric values and the act
 
 8. Try generating predictions with the following test cases:
 
-| Feature | Case 1 | Case 2|
-|---------|--------|-------|
-| DayOfWeek| Friday | Monday |
-| Month	| May | November
-| Temperature | 72.3 | 55.8 |
-| Rainfall| 0.01 | 0.56 |
+| Feature     | Case 1 | Case 2   |
+| ----------- | ------ | -------- |
+| DayOfWeek   | Friday | Monday   |
+| Month       | May    | November |
+| Temperature | 72.3   | 55.8     |
+| Rainfall    | 0.01   | 0.56     |
 
 ## Train a classification model
 
 Now let’s train a classification model to predict which of three species a penguin is (0: Adelie, 1: Gentoo, or 2: Chinstrap), based on its measurements.
 
 1. If you’re still viewing the **Test Model** page for the ice cream regression model, use the **Train another model** to restart the wizard.
-1. On the **Model Type & Data** page, select Classification** and upload the **penguins.csv** text file to see a preview of the data it contains.
+1. On the **Model Type & Data** page, select Classification** and upload the **penguins.csv\*\* text file to see a preview of the data it contains.
 1. On the **Training Settings** page:
-  - Set the **Target column** to Species.
-  - Use all remaining columns as features with which to train the model.
-  - Review the **Training/Testing split** (which determines how much of the dataset to use for training the model, and how much to hold back for model evaluation).
+
+- Set the **Target column** to Species.
+- Use all remaining columns as features with which to train the model.
+- Review the **Training/Testing split** (which determines how much of the dataset to use for training the model, and how much to hold back for model evaluation).
+
 1. On the **Training Process** page, review the settings and train the model.
 1. On the **Training Results** page, view the metrics and visualizations that were produced from the test data you held back.
 
@@ -72,12 +75,12 @@ Now let’s train a classification model to predict which of three species a pen
 
 7. Try generating predictions with the following test cases:
 
-| Feature | Case 1 | Case 2 |
-|---------|--------|--------|
-| CulmenLength | 45.2 | 46.9 |
-| CulmenDepth | 15.4 | 16.7 |
-| FlipperLength | 219 | 189 |
-| BodyMass| 4753 | 3645 |
+| Feature       | Case 1 | Case 2 |
+| ------------- | ------ | ------ |
+| CulmenLength  | 45.2   | 46.9   |
+| CulmenDepth   | 15.4   | 16.7   |
+| FlipperLength | 219    | 189    |
+| BodyMass      | 4753   | 3645   |
 
 ## Train a clustering model
 
@@ -86,8 +89,10 @@ Finally, let’s train a clustering model to separate customers into groups base
 1. If you’re still viewing the **Test Model** page for the penguin classification model, use the **Train another model** to restart the wizard.
 1. On the **Model Type & Data** page, select **Clustering** and upload the **customers.csv** text file to see a preview of the data it contains.
 1. On the **Training Settings** page:
-  - Use *AverageSpend* and *AverageFrequency* as the feature columns.
-  - Set the number of clusters to **Automatic** (so the training process tries to find the optimal number of clusters into which the data should be separated)
+
+- Use _AverageSpend_ and _AverageFrequency_ as the feature columns.
+- Set the number of clusters to **Automatic** (so the training process tries to find the optimal number of clusters into which the data should be separated)
+
 1. On the **Training Process** page, review the settings and train the model.
 1. On the **Training Results** page, view the metrics and visualizations that were produced from the test data you held back.
 
@@ -96,10 +101,10 @@ Finally, let’s train a clustering model to separate customers into groups base
 6. On the **Test Model** page, use the default test data to generate a prediction.
 7. Try generating predictions with the following test cases:
 
-| Feature | Case 1 | Case 2 |
-|---------|--------|--------|
-| AverageSpend | 21.0 | 46.9 |
-| AverageFrequency | 105.0 | 2.0 |
+| Feature          | Case 1 | Case 2 |
+| ---------------- | ------ | ------ |
+| AverageSpend     | 21.0   | 46.9   |
+| AverageFrequency | 105.0  | 2.0    |
 
 ## Summary
 
