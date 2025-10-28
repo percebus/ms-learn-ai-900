@@ -12,9 +12,11 @@ Let’s say you own an apartment in the thriving town of Dataville. You decide y
 
 1. In a web browser, open the [Home rental estimator app](https://aka.ms/rent-predictor) at [`https://aka.ms/rent-predictor`](https://aka.ms/rent-predictor).
 1. To generate a rental prediction, set the following properties and then select **Calculate Rent**:
-  - **Postal Code:** Select one of the postal codes for the fictional town of Dataville.
-  - **Property Size:** Use the slider to set the size of your property in square feet.
-  - **Number of Bedrooms:** Select the number of bedrooms in your property.
+
+- **Postal Code:** Select one of the postal codes for the fictional town of Dataville.
+- **Property Size:** Use the slider to set the size of your property in square feet.
+- **Number of Bedrooms:** Select the number of bedrooms in your property.
+
 1. Review the generated rent prediction.
 1. Try adjusting the property details, and verify that the changes result in different rental predictions.
 
@@ -35,9 +37,11 @@ Suppose an agricultural specialist needs to identify the type of wheat that will
 
 1. In a web browser, open the [Wheat Seed Identifier](https://aka.ms/seed-identifier) app at [`https://aka.ms/seed-identifier`](https://aka.ms/seed-identifier).
 1. To generate a wheat species prediction, set the following properties and then select Predict wheat species:
-  - Seed length: The overall length of the seed in millimeters.
-  - Seed width: The width of the seed in millimeters.
-  - Groove length: The length of the groove in the seed.
+
+- Seed length: The overall length of the seed in millimeters.
+- Seed width: The width of the seed in millimeters.
+- Groove length: The length of the groove in the seed.
+
 1. Review the generated wheat species prediction.
 1. Try adjusting the properties, and verify that the changes result in different species predictions.
 
@@ -59,10 +63,11 @@ Suppose a retail business wants to group customers into segments for marketing, 
 > The algorithm tries to separate the data into K clusters based on the mean distance between the data points and the cluster centers. In this case, the app tries K values of 3 to 5 before selecting the one that results in the best separation of the data.
 
 4. When the analysis is complete:
-  - Review the updated data, noting that each customer has been assigned to a cluster.
-  - Review the silhouette scores, which measure how well the clusters are separated for each K value that was tried (the score is a value between -1 and 1 - the closer to 1 the score is, the better the separation).
-  - Review the cluster metrics, which include the average spend and purchase frequency for customers in each cluster.
-  - Review the scatter plot, which shows a visualization of the clustered data.
+
+- Review the updated data, noting that each customer has been assigned to a cluster.
+- Review the silhouette scores, which measure how well the clusters are separated for each K value that was tried (the score is a value between -1 and 1 - the closer to 1 the score is, the better the separation).
+- Review the cluster metrics, which include the average spend and purchase frequency for customers in each cluster.
+- Review the scatter plot, which shows a visualization of the clustered data.
 
 Each cluster represents a group of customers with similar spending habits.
 
