@@ -1,7 +1,5 @@
 # Michael Rodriguez
 
----
-
 Marketing Manager | 6+ Years Experience 📧 m.rodriguez@email.com | 📱 (555) 234-5678 | 📍 Austin, TX 💼 LinkedIn: linkedin.com/in/mrodriguez | 🌐 Portfolio: michaelrodriguez.com
 
 ## Professional Summary

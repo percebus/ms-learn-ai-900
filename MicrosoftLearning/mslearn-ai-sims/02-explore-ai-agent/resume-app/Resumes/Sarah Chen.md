@@ -1,10 +1,6 @@
 # Sarah Chen
 
----
-
 **Senior Software Developer | 8+ Years Experience** 📧 sarah.chen@email.com | 📱 (555) 123-4567 | 📍 Seattle, WA 💼 LinkedIn: linkedin.com/in/sarahchen | 🌐 GitHub: github.com/sarahchen
-
----
 
 ## Professional Summary
 
