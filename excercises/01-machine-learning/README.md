@@ -99,10 +99,11 @@ Finally, let’s train a clustering model to separate customers into groups base
 6. On the **Test Model** page, use the default test data to generate a prediction.
 7. Try generating predictions with the following test cases:
 
-| Feature          | Case 1 | Case 2 |
-| ---------------- | ------ | ------ |
-| AverageSpend     | 21.0   | 46.9   |
-| AverageFrequency | 105.0  | 2.0    |
+| Case    | AverageSpend | AverageFrequency | Prediction |
+| ------- | ------------ | ---------------- | ---------- |
+| Default | 88.0         | 48.0             | Cluster 2  |
+| Case 1  | 21.0         | 105.0            | Cluster 1  |
+| Case 2  | 46.9         | 2.0              | Cluster 3  |
 
 ## Summary
 
