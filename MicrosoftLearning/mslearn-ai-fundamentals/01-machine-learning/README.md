@@ -2,7 +2,8 @@
 
 In this exercise, you’ll use the automated machine learning to train and evaluate a machine learning model. You’ll then deploy and test the trained model.
 
-> [!NOTE] Note: This exercise is designed to take you through the steps to train and test a model using **Azure Machine Learning**. If you have an Azure subscription with sufficient permissions, you can provision an Azure Machine Learning workspace and use that for the exercise. However, Azure Machine Learning is designed for enterprise-scale machine learning solutions that involve huge volumes of data and cloud-based compute. Some operations in Azure Machine Learning require provisioning compute, which can take considerable time. If you don’t have access to Azure, or if you have limited time to complete the exercise, a browser-based **ML Lab** app that includes the core functionality of Azure ML used in this exercise is also provided, and you can use that to train and test real machine learning models, just as you would in Azure ML. While the user interface in ML Lab is not identical to Azure Machine Learning, it’s similar enough to make the transition to Azure Machine Learning intuitive. Note that the ML Lab app runs in the browser, so refreshing the page at any point will restart the app!
+> [!NOTE]
+> **Note:** This exercise is designed to take you through the steps to train and test a model using **Azure Machine Learning**. If you have an Azure subscription with sufficient permissions, you can provision an Azure Machine Learning workspace and use that for the exercise. However, Azure Machine Learning is designed for enterprise-scale machine learning solutions that involve huge volumes of data and cloud-based compute. Some operations in Azure Machine Learning require provisioning compute, which can take considerable time. If you don’t have access to Azure, or if you have limited time to complete the exercise, a browser-based **ML Lab** app that includes the core functionality of Azure ML used in this exercise is also provided, and you can use that to train and test real machine learning models, just as you would in Azure ML. While the user interface in ML Lab is not identical to Azure Machine Learning, it’s similar enough to make the transition to Azure Machine Learning intuitive. Note that the ML Lab app runs in the browser, so refreshing the page at any point will restart the app!
 
 This exercise should take approximately **35** minutes to complete (less if you use the browser-based ML Lab app).
 
@@ -15,7 +16,8 @@ A workspace is used to keep all your machine learning resources together, making
 - Azure-based Azure Machine Learning Studio at https://ml.azure.com
 - Browser-based ML Lab at https://aka.ms/ml-lab
 
-> [!TIP] **Tip**: If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
+> [!TIP]
+> **Tip**: If Azure Machine Learning studio opens in an existing workspace, navigate to the **All workspaces** page.
 
 2. Create a new workspace with a suitable name.
 
@@ -39,7 +41,8 @@ Automated machine learning enables you to try multiple algorithms and parameters
 1. In the portal, view the **Automated ML** page (under **Authoring**).
 1. Create a new Automated ML job with the following settings, using **Next** as required to progress through the user interface:
 
-> [!TIP] **Tip**: If no explicit information for a setting is provided in the steps below, use the default value.
+> [!TIP]
+> **Tip**: If no explicit information for a setting is provided in the steps below, use the default value.
 
 **Basic settings**:
 
@@ -59,7 +62,8 @@ Automated machine learning enables you to try multiple algorithms and parameters
   - Create the data asset.
 - Ensure your newly created ice-cream data asset is selected before moving to the next step
 
-> [!NOTE] **Note**: If you are using an Azure subscription for which you are not an administrator, key-based access to storage may have been disallowed by policy. In this case, you’ll need to work with your administrator to allow key-based access or reconfigure your Azure Machine Learning workspace to use Entra ID authentication to access storage. If you can’t do this, use the browser-based ML Lab app for this exercise.
+> [!NOTE]
+> **Note**: If you are using an Azure subscription for which you are not an administrator, key-based access to storage may have been disallowed by policy. In this case, you’ll need to work with your administrator to allow key-based access or reconfigure your Azure Machine Learning workspace to use Entra ID authentication to access storage. If you can’t do this, use the browser-based ML Lab app for this exercise.
 
 **Task settings:**
 
@@ -74,7 +78,8 @@ Automated machine learning enables you to try multiple algorithms and parameters
     - **Metric score threshold**: 0.9
     - **Experiment timeout (minutes)**: 15
 
-> [!NOTE] **Note** It’s important to set these limits when using Azure Machine Learning, as running training jobs for every possible algorithm and featurization combination could potentially take hours!
+> [!NOTE]
+> **Note** It’s important to set these limits when using Azure Machine Learning, as running training jobs for every possible algorithm and featurization combination could potentially take hours!
 
 **Compute:**
 
@@ -86,7 +91,8 @@ Automated machine learning enables you to try multiple algorithms and parameters
 
 3. Wait for the job to finish.
 
-> [!TIP] **Tip**: If you’re using Azure Machine Learning, it might take a while — now might be a good time for a coffee break!
+> [!TIP]
+> **Tip**: If you’re using Azure Machine Learning, it might take a while — now might be a good time for a coffee break!
 
 ## Review the best model
 
@@ -108,7 +114,8 @@ When the automated machine learning job has completed, you can review the best m
 
 2. Wait for a notification that the deployment is complete.
 
-> [!TIP] Tip: In Azure Machine Learning studio, endpoint deployment may take 5-10 minutes.
+> [!TIP]
+> **Tip:** In Azure Machine Learning studio, endpoint deployment may take 5-10 minutes.
 
 ## Test the deployed service
 

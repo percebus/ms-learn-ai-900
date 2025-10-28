@@ -24,4 +24,5 @@ Blue Yonder Airlines wants to analyze social media posts that mention the compan
 1. At the top of the page, observe that the AI analysis is used to keep a running metric of sentiment for social media posts in real-time.
 1. Use the **Stop capturing** button to stop capturing social media posts.
 
-> [!NOTE] **Note**: The applications used in this exercise are simulations - there are no actual AI speech or language service behind them. However, they’re based on real capabilities you can implement with Azure AI Foundry; and in particular, the Azure AI Speech, Azure AI Language, and Azure AI Translator services.
+> [!NOTE]
+> **Note**: The applications used in this exercise are simulations - there are no actual AI speech or language service behind them. However, they’re based on real capabilities you can implement with Azure AI Foundry; and in particular, the Azure AI Speech, Azure AI Language, and Azure AI Translator services.

@@ -8,7 +8,8 @@ This exercise should take approximately **15** minutes to complete.
 
 Suppose you work for the fictional Contoso organization, and you need to submit an expense claim for a recent business trip. The company has created an AI Agent to help employees with expense policies and claims. AI agents are more than just generative AI enabled chatbots. They can also perform actions on your behalf, using access to data and tools to complete tasks. In this case, the agent can generate and submit an expense claim on your behalf.
 
-> [!NOTE] **Note**: In this simulated app, the agent’s understanding is limited. A real generative AI agent typically has much more versatility in understanding and generating language.
+> [!NOTE]
+> **Note**: In this simulated app, the agent’s understanding is limited. A real generative AI agent typically has much more versatility in understanding and generating language.
 
 1. In a web browser, open the [Expense chat assistant](https://aka.ms/expenses-agent) app at [`https://aka.ms/expenses-agent`](https://aka.ms/expenses-agent).
 1. In the chat interface, enter a prompt, such as `Hello`, and review the response.
@@ -38,4 +39,5 @@ Suppose a recruitment organization needs to streamline their process by automati
 
 5. Repeat the process by using **Change Candidate** to select a different resume, and compare it against the available jobs.
 
-> [!NOTE] Note: The applications used in this exercise are simulations - there are no actual AI agents or generative AI models behind them. However, they’re based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/) - in particular the [Azure AI Foundry Agent Service](https://azure.microsoft.com/products/ai-agent-service/).
+> [!NOTE]
+> **Note:** The applications used in this exercise are simulations - there are no actual AI agents or generative AI models behind them. However, they’re based on real capabilities you can implement with [Azure AI Foundry](https://azure.microsoft.com/products/ai-foundry/) - in particular the [Azure AI Foundry Agent Service](https://azure.microsoft.com/products/ai-agent-service/).
