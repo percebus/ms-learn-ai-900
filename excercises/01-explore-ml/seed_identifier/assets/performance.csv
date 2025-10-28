@@ -1,0 +1,5 @@
+Metric,Overall,Class 0,Class 1,Class 2
+Accuracy,96.83%,-,-,-
+Precision,96.90%,100.00%,95.45%,95.24%
+Recall,96.97%,90.91%,100.00%,100.00%
+F1 Score,96.82%,95.24%,97.67%,97.56%
