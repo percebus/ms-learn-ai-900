@@ -13,12 +13,13 @@ This exercise takes approximately **20** minutes.
 3. Select **Use this model**.
 
 4. In the **Create a project** wizard, enter a valid name for your project. Then expand **Advanced options** to specify the following settings for your project:
-  - **Azure AI Foundry resource**: Enter a valid name for your AI Foundry resource.
-  - **Subscription**: Your Azure subscription
-  - **Resource group**: Create or select a resource group
-  - **Region**: Select any of the **AI Foundry recommended** regions*
 
-**Model deployments are restricted by regional quotas. If you select a region in which you have insufficient available quota, you may need to select an alternative region for a new resource later.*
+- **Azure AI Foundry resource**: Enter a valid name for your AI Foundry resource.
+- **Subscription**: Your Azure subscription
+- **Resource group**: Create or select a resource group
+- **Region**: Select any of the **AI Foundry recommended** regions\*
+
+\*_Model deployments are restricted by regional quotas. If you select a region in which you have insufficient available quota, you may need to select an alternative region for a new resource later._
 
 5. Select **Create.** Wait for your project to be created. It may take a few minutes.
 
@@ -55,7 +56,7 @@ The Chat playground is a user interface that enables you to try out building a c
 
 These kinds of instructions are commonly referred to as a system prompt, and are used to provide guidance and constraints for the model’s responses.
 
-5. Review the *Chat history* pane, which contains some sample prompts to help you get started and a query box to enter your own prompts.
+5. Review the _Chat history_ pane, which contains some sample prompts to help you get started and a query box to enter your own prompts.
 
 6. Let’s try generating a response using a prompt with a specific goal. In the chat box, enter the following prompt:
 
@@ -109,3 +110,8 @@ If you don’t intend to do more exercises, delete any resources that you no lon
 
 1. Open the **Azure portal** at [https://portal.azure.com](https://portal.azure.com) and select the resource group that contains the resources you created.
 1. Select **Delete resource group** and then **enter the resource group name** to confirm. The resource group is then deleted.
+
+## References
+
+- [Explore generative AI in Azure AI Foundry Portal](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Exercises/02-generative-ai.html)
+- [History of Paris](https://en.wikipedia.org/wiki/History_of_Paris)

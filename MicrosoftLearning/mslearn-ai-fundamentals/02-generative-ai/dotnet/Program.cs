@@ -34,7 +34,7 @@ async Task RunAsync()
     {
         new SystemChatMessage(@"You are an AI assistant that helps people find information."),
         new UserChatMessage(@"Can you give me more information about dining options near the first location?")
-};
+    };
 
     // Create chat completion options
     var options = new ChatCompletionOptions{

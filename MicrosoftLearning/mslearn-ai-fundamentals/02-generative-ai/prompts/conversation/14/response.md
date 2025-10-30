@@ -3,7 +3,9 @@ If you're looking to stay in Paris and want to be within walking distance of maj
 ---
 
 ### **1. The 1st Arrondissement (Louvre/Palais Royal)**
+
 - **Why Stay Here**: The 1st Arrondissement is the very heart of Paris and home to some of the city's most famous historical landmarks, such as:
+
   - **The Louvre Museum**: One of the largest and most renowned art museums in the world.
   - **Tuileries Garden**: A stunning garden perfect for a leisurely stroll.
   - **Sainte-Chapelle**: A Gothic masterpiece with breathtaking stained glass windows.
@@ -19,7 +21,9 @@ If you're looking to stay in Paris and want to be within walking distance of maj
 ---
 
 ### **2. Le Marais (3rd & 4th Arrondissements)**
+
 - **Why Stay Here**: This historic and trendy neighborhood is filled with cultural landmarks, beautiful streets, and charming squares. Highlights include:
+
   - **Place des Vosges**: The oldest planned square in Paris, surrounded by stunning 17th-century architecture.
   - **The Jewish Quarter**: A historically significant area with synagogues, Jewish bakeries, and cultural sites.
   - **Hôtel de Ville**: Paris's grand city hall with its stunning façade.
@@ -36,7 +40,9 @@ If you're looking to stay in Paris and want to be within walking distance of maj
 ---
 
 ### **3. Saint-Germain-des-Prés (6th Arrondissement)**
+
 - **Why Stay Here**: This historic and charming neighborhood is a hub for intellectuals, artists, and writers, with iconic landmarks and a quintessentially Parisian atmosphere. Highlights include:
+
   - **Luxembourg Gardens**: A stunning garden that’s perfect for a morning stroll or a picnic.
   - **Saint-Germain-des-Prés Abbey**: One of the oldest churches in Paris.
   - **Café de Flore and Les Deux Magots**: Legendary cafes frequented by literary icons like Sartre and Hemingway.
@@ -52,6 +58,7 @@ If you're looking to stay in Paris and want to be within walking distance of maj
 ---
 
 ### **Why These Three Neighborhoods?**
+
 1. **Proximity to Historical Sites**: These areas are home to some of Paris’s most famous landmarks and are centrally located, making it easy to walk to other neighborhoods and attractions.
 2. **Authentic Parisian Atmosphere**: Staying in these neighborhoods immerses you in the city's history, architecture, and culture.
 3. **Convenience**: You’ll find plenty of dining options, cafes, and shops nearby, as well as excellent public transportation if you need to travel further.
