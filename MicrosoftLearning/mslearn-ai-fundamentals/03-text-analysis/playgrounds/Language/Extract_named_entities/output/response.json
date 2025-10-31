@@ -1,0 +1,286 @@
+{
+  "kind": "EntityRecognitionResults",
+  "results": {
+    "documents": [
+      {
+        "id": "1",
+        "entities": [
+          {
+            "text": "hotel",
+            "category": "Location",
+            "type": "Location",
+            "offset": 6,
+            "length": 5,
+            "confidenceScore": 0.71,
+            "tags": [
+              {
+                "name": "Location",
+                "confidenceScore": 0.71
+              }
+            ]
+          },
+          {
+            "text": "The Royal Hotel",
+            "category": "Organization",
+            "type": "Organization",
+            "offset": 31,
+            "length": 15,
+            "confidenceScore": 0.58,
+            "tags": [
+              {
+                "name": "Organization",
+                "confidenceScore": 0.58
+              }
+            ]
+          },
+          {
+            "text": "London",
+            "category": "Location",
+            "subcategory": "City",
+            "type": "City",
+            "offset": 48,
+            "length": 6,
+            "confidenceScore": 0.94,
+            "tags": [
+              {
+                "name": "City",
+                "confidenceScore": 0.94
+              },
+              {
+                "name": "GPE",
+                "confidenceScore": 0.98
+              },
+              {
+                "name": "Location",
+                "confidenceScore": 0.98
+              }
+            ]
+          },
+          {
+            "text": "United Kingdom",
+            "category": "Location",
+            "subcategory": "CountryRegion",
+            "type": "CountryRegion",
+            "offset": 56,
+            "length": 14,
+            "confidenceScore": 0.99,
+            "tags": [
+              {
+                "name": "CountryRegion",
+                "confidenceScore": 0.99
+              },
+              {
+                "name": "GPE",
+                "confidenceScore": 0.99
+              },
+              {
+                "name": "Location",
+                "confidenceScore": 0.99
+              }
+            ]
+          },
+          {
+            "text": "5/6/2018",
+            "category": "DateTime",
+            "subcategory": "Date",
+            "type": "Date",
+            "offset": 72,
+            "length": 8,
+            "confidenceScore": 0.8,
+            "tags": [
+              {
+                "name": "Date",
+                "confidenceScore": 0.8
+              },
+              {
+                "name": "DateTime",
+                "confidenceScore": 0.8
+              }
+            ],
+            "metadata": {
+              "metadataKind": "DateMetadata",
+              "dateValues": [
+                {
+                  "timex": "2018-05-06",
+                  "value": "2018-05-06"
+                }
+              ]
+            }
+          },
+          {
+            "text": "hotel",
+            "category": "Location",
+            "type": "Location",
+            "offset": 97,
+            "length": 5,
+            "confidenceScore": 0.87,
+            "tags": [
+              {
+                "name": "Location",
+                "confidenceScore": 0.87
+              }
+            ]
+          },
+          {
+            "text": "since 1950's",
+            "category": "DateTime",
+            "subcategory": "DateRange",
+            "type": "DateRange",
+            "offset": 120,
+            "length": 12,
+            "confidenceScore": 0.8,
+            "tags": [
+              {
+                "name": "DateRange",
+                "confidenceScore": 0.8
+              },
+              {
+                "name": "DateTime",
+                "confidenceScore": 0.8
+              }
+            ],
+            "metadata": {
+              "metadataKind": "TemporalSpanMetadata",
+              "spanValues": [
+                {
+                  "timex": "(1950-01-01,1960-01-01,P10Y)",
+                  "duration": "P10Y",
+                  "begin": "1950-01-01"
+                }
+              ],
+              "modifier": "Since"
+            }
+          },
+          {
+            "text": "now",
+            "category": "DateTime",
+            "type": "DateAndTime",
+            "offset": 192,
+            "length": 3,
+            "confidenceScore": 0.8,
+            "tags": [
+              {
+                "name": "DateAndTime",
+                "confidenceScore": 0.8
+              },
+              {
+                "name": "DateTime",
+                "confidenceScore": 0.8
+              }
+            ],
+            "metadata": {
+              "metadataKind": "DateTimeMetadata",
+              "dateValues": [
+                {
+                  "timex": "PRESENT_REF",
+                  "value": "2025-10-31 16:53:43"
+                }
+              ]
+            }
+          },
+          {
+            "text": "internet",
+            "category": "Skill",
+            "type": "Skill",
+            "offset": 222,
+            "length": 8,
+            "confidenceScore": 0.92,
+            "tags": [
+              {
+                "name": "Skill",
+                "confidenceScore": 0.92
+              }
+            ]
+          },
+          {
+            "text": "one",
+            "category": "Quantity",
+            "subcategory": "Number",
+            "type": "Number",
+            "offset": 262,
+            "length": 3,
+            "confidenceScore": 0.8,
+            "tags": [
+              {
+                "name": "Number",
+                "confidenceScore": 0.8
+              },
+              {
+                "name": "Quantity",
+                "confidenceScore": 0.8
+              },
+              {
+                "name": "Numeric",
+                "confidenceScore": 0.8
+              }
+            ],
+            "metadata": {
+              "metadataKind": "NumberMetadata",
+              "numberKind": "Integer",
+              "value": 1.0
+            }
+          },
+          {
+            "text": "office rooms",
+            "category": "Location",
+            "type": "Location",
+            "offset": 275,
+            "length": 12,
+            "confidenceScore": 0.8,
+            "tags": [
+              {
+                "name": "Location",
+                "confidenceScore": 0.8
+              }
+            ]
+          },
+          {
+            "text": "flight",
+            "category": "Event",
+            "type": "Event",
+            "offset": 307,
+            "length": 6,
+            "confidenceScore": 0.72,
+            "tags": [
+              {
+                "name": "Event",
+                "confidenceScore": 0.72
+              }
+            ]
+          },
+          {
+            "text": "home",
+            "category": "Location",
+            "type": "Location",
+            "offset": 314,
+            "length": 4,
+            "confidenceScore": 0.94,
+            "tags": [
+              {
+                "name": "Location",
+                "confidenceScore": 0.94
+              }
+            ]
+          },
+          {
+            "text": "British Museum",
+            "category": "Location",
+            "type": "Location",
+            "offset": 355,
+            "length": 14,
+            "confidenceScore": 0.94,
+            "tags": [
+              {
+                "name": "Location",
+                "confidenceScore": 0.94
+              }
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "errors": [],
+    "modelVersion": "2025-02-01"
+  }
+}

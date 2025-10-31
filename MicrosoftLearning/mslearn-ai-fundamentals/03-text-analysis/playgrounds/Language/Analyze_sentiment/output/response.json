@@ -1,0 +1,87 @@
+{
+  "kind": "SentimentAnalysisResults",
+  "results": {
+    "documents": [
+      {
+        "id": "1",
+        "sentiment": "negative",
+        "confidenceScores": {
+          "positive": 0.0,
+          "neutral": 0.02,
+          "negative": 0.98
+        },
+        "sentences": [
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 1.0
+            },
+            "offset": 0,
+            "length": 137,
+            "text": "Disappointing Stay at The City Hotel  The City Hotel, London  9/5/2018  My experience at The City Hotel in London was far from pleasant. "
+          },
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 1.0
+            },
+            "offset": 137,
+            "length": 126,
+            "text": "The constant noise from nearby train tracks made it nearly impossible to sleep, with vibrations felt throughout the building. "
+          },
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 1.0
+            },
+            "offset": 263,
+            "length": 131,
+            "text": "The rooms were outdated, dusty, and poorly maintained—dripping faucets, squeaky beds, and broken fixtures were just the beginning. "
+          },
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.02,
+              "neutral": 0.11,
+              "negative": 0.87
+            },
+            "offset": 394,
+            "length": 100,
+            "text": "Sound insulation was nonexistent, so every conversation from neighboring rooms was clearly audible. "
+          },
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.01,
+              "neutral": 0.0,
+              "negative": 0.99
+            },
+            "offset": 494,
+            "length": 164,
+            "text": "While the location near public transport was convenient and the staff were friendly, these positives couldn't make up for the overall discomfort and lack of value. "
+          },
+          {
+            "sentiment": "negative",
+            "confidenceScores": {
+              "positive": 0.0,
+              "neutral": 0.0,
+              "negative": 1.0
+            },
+            "offset": 658,
+            "length": 78,
+            "text": "I wouldn’t recommend this hotel to anyone seeking a restful or enjoyable stay."
+          }
+        ],
+        "warnings": []
+      }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+  }
+}
