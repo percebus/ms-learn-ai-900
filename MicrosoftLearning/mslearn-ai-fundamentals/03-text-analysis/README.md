@@ -15,12 +15,13 @@ This exercise takes approximately **20** minutes.
 3. On the Azure AI Services page, select the **Language + Translator** tile.
 
 4. On the **Language + Translator** page, select **Try the Language playground**. Then, when prompted, create a new project with the following settings:
-  - **Project name**: Enter a valid name for your project.
-  - **Advanced settings**:
-    - **Subscription**: Your Azure subscription
-    - **Resource group**: Create or select a resource group
-    - **Region**: Select any AI Foundry recommended region
-    - **AI Foundry or Azure OpenAI**: Create a new Azure AI Foundry resource with a valid name
+
+- **Project name**: Enter a valid name for your project.
+- **Advanced settings**:
+  - **Subscription**: Your Azure subscription
+  - **Resource group**: Create or select a resource group
+  - **Region**: Select any AI Foundry recommended region
+  - **AI Foundry or Azure OpenAI**: Create a new Azure AI Foundry resource with a valid name
 
 5. Select **Create**. Wait for your project to be created. It may take a few minutes.
 

@@ -6,8 +6,9 @@ Now let’s translate the French review to English.
 2. In the list of playgrounds, open the Translator playground.
 3. In the Translator playground, select Text translation.
 4. In the Configure pane, select the following language options:
-  - Translate from: French
-  - Translate to: English
+
+- Translate from: French
+- Translate to: English
 
 5. Under Sample, enter the French-language review:
 

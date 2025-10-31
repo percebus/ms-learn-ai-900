@@ -14,4 +14,4 @@ This is an old hotel (has been around since 1950's) and the room furnishings are
 
 3. Select **Run**. Review the output.
 
-Notice in the *Details* section how the extracted entities come with additional information such as type and confidence scores. The confidence score represents the likelihood that the type identified actually belongs to that category.
+Notice in the _Details_ section how the extracted entities come with additional information such as type and confidence scores. The confidence score represents the likelihood that the type identified actually belongs to that category.
