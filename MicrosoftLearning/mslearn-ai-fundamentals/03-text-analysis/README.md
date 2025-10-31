@@ -34,7 +34,7 @@ The Language playground is a user interface that enables you to try out some Azu
 Azure AI Language offers a wide range of text analysis capabilities.
 
 1. [Extract named entities with Azure AI Language in Azure AI Foundry portal](./playgrounds/Language/Extract_named_entities/README.md)
-2. [Extract key phrases with Azure AI Language in Azure AI Foundry portal](./playgrounds/Language/Identify_key_phrases/README.md)
+2. [Extract key phrases with Azure AI Language in Azure AI Foundry portal](./playgrounds/Language/Extract_key_phrases/README.md)
 3. [Summarize text with Azure AI Language in Azure AI Foundry portal](./playgrounds/Language/Summarize_text/README.md)
 4. [Analyze sentiment in text](./playgrounds/Language/Analyze_sentiment/README.md)
 
